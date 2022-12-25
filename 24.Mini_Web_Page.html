@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Web Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <style>
+        html{
+            scroll-behavior:smooth;
+        }
+        #list{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-info">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-3" class="text-center">
+                    <img src="https://p.kindpng.com/picc/s/485-4850258_bootstrap-logo-png-image-free-download-searchpng-logos.png" alt="bootstrap logo" style="width: 60px;">
+                </div>
+                <div class="col-9 bg-info">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+                        <a class="navbar-brand" href="#">Bootstrap</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active" id="">
+                              <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item" id="">
+                                <a class="nav-link" href="#about">About</a>
+                              </li>
+                            <li class="nav-item" id="">
+                              <a class="nav-link" href="#gallary">Gallary</a>
+                            </li>
+                            <li class="nav-item" id="">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                            <li class="nav-item" id="">
+                              <a class="nav-link" href="#contact">Contact US</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Slider / Caurosel -->
+    <section id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://www.slideegg.com/image/catalog/43060-nature%20powerpoint%20template.png" class="d-block w-100" alt="imgfirst">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://www.slideegg.com/image/catalog/22786-nature%20powerpoint%20template-Life-saving%20Tips%20About%20Nature%20Powerpoint%20Template.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://www.slideegg.com/image/catalog/10726-about%20us%20powerpoint%20template.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption bg-dark p-3 d-none d-md-block">
+                                <h1 class="text-danger text-uppercase display-4 font-weight-bold">Lorem ipsum dolor sit amet</h1>
+                                <h3 class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et amet, cumque numquam delectus iure ducimus architecto nihil itaque deleniti error obcaecati ex eveniet veritatis veniam hic ea magnam nobis fuga!</h3>
+                                <button class="btn btn-warning bg-transparent text-white">View</button>
+                                <button class="btn btn-primary">WebPage</button>
+                            </div>
+                          </div>
+                        </div>
+                       <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About US  -->
+    <section id="about">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center">
+                    <img src="https://p.kindpng.com/picc/s/485-4850258_bootstrap-logo-png-image-free-download-searchpng-logos.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6  text-center">
+                    <h1 class="text-primary text-uppercase">About US</h1>
+                    <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad fugiat, obcaecati sint, dolor harum minima nam tenetur doloribus commodi voluptate doloremque repudiandae. Deserunt, libero. Nam excepturi aliquid aut ab quam!</p>
+                    <button class="btn btn-primary btn-lg">View More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallary -->
+    <section class="mb-5" id="gallary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center font-weight-bold">
+                    <h1 class="text-primary text-uppercase">Gallary</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4">
+                    <img src="https://images.pexels.com/photos/46216/sunflower-flowers-bright-yellow-46216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Flower" class="w-100 rounded shadow">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4">
+                    <img src="https://images.pexels.com/photos/8936179/pexels-photo-8936179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Flower" class="w-100 rounded shadow">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4">
+                    <img src="https://images.pexels.com/photos/319368/pexels-photo-319368.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Flower" class="w-100 rounded shadow">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4">
+                    <img src="https://images.pexels.com/photos/9398764/pexels-photo-9398764.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Flower" class="w-100 rounded shadow">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4">
+                    <img src="https://images.pexels.com/photos/319368/pexels-photo-319368.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Flower" class="w-100 rounded shadow">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4">
+                    <img src="https://images.pexels.com/photos/9398764/pexels-photo-9398764.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Flower" class="w-100 rounded shadow">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4">
+                    <img src="https://images.pexels.com/photos/46216/sunflower-flowers-bright-yellow-46216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Flower" class="w-100 rounded shadow">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mt-4">
+                    <img src="https://images.pexels.com/photos/8936179/pexels-photo-8936179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Flower" class="w-100 rounded shadow">
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Blog -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center font-weight-bold">
+                    <h1 class="text-primary text-uppercase">Blog</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="card border-primary">
+                        <div class="card-header p-0">
+                            <img src="https://images.pexels.com/photos/9398764/pexels-photo-9398764.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Flower" class="w-100" alt="">
+                        </div>
+                        <div class="card-body text-center">
+                            <span class="text-left">Date:15-10-2020</span>
+                            <span class="ml-5">By Admin</span>
+                            <h1>Blog First Title</h1>
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore quam facilis, nisi fugiat</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button class="btn btn-primary">View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="card border-primary">
+                        <div class="card-header p-0">
+                            <img src="https://images.pexels.com/photos/46216/sunflower-flowers-bright-yellow-46216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Flower" class="w-100" alt="">
+                        </div>
+                        <div class="card-body text-center">
+                            <span class="text-left">Date:15-10-2020</span>
+                            <span class="ml-5">By Admin</span>
+                            <h1>Blog First Title</h1>
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore quam facilis, nisi fugiat</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button class="btn btn-primary">View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="card border-primary">
+                        <div class="card-header p-0">
+                            <img src="https://images.pexels.com/photos/319368/pexels-photo-319368.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Flower" class="w-100" alt="">
+                        </div>
+                        <div class="card-body text-center">
+                            <span class="text-left">Date:15-10-2020</span>
+                            <span class="ml-5">By Admin</span>
+                            <h1>Blog First Title</h1>
+                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore quam facilis, nisi fugiat</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button class="btn btn-primary">View</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact US -->
+    <section class="mb-5 mt-4" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 border border-primary p-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241276.18664135152!2d74.60292961238547!3d19.11026968229693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb05d46788921%3A0x6677e92c1a5181b6!2sAhmednagar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1665849291590!5m2!1sen!2sin" class="w-100 h-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-12 col-md-6 text-center font-weight-bold bg-primary">
+                    <h1 class="text-light text-uppercase">Contact US</h1>
+                    <div class="row">
+                        <div class="col-12 col-md-6 mt-4">
+                            <input type="text" name="" placeholder="Name" class="form-control">
+                        </div>
+                        <div class="col-12 col-md-6 mt-4">
+                            <input type="text" name="" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="col-12 col-md-6 mt-4">
+                            <input type="text" name="" placeholder="Phone" class="form-control">
+                        </div>
+                        <div class="col-12 col-md-6 mt-4">
+                            <input type="text" name="" placeholder="Address" class="form-control">
+                        </div>
+                        <div class="col-12 mt-4">
+                            <textarea name="" rows="5" placeholder="Message" class="form-control"></textarea>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <button class="btn btn-light">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <Footer class="bg-primary pt-5 pb-5" id="footer">
+        <div class="container">
+            <div class="row">
+            <div class="col-12 col-md-4 text-center">
+                <img src="https://p.kindpng.com/picc/s/485-4850258_bootstrap-logo-png-image-free-download-searchpng-logos.png" alt="" style="width: 100px;">
+                <p class="text-white text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, facilis quo quibusdam dicta, aut voluptas voluptatum nam in, perspiciatis fugit minima numquam distinctio ex. Tempora rerum porro similique dolor aliquid?</p>
+            </div>
+            <div class="col-12 col-md-4 text-center mt-4">
+                <h1 class="text-white text-center">Quick Link</h1>
+                <ul>
+                    <li class="text-decoration-none" id="list"><a href="" class="text-light h4">Home</a></li>
+                    <li class="text-decoration-none" id="list"><a href="" class="text-light h4">About</a></li>
+                    <li class="text-decoration-none" id="list"><a href="" class="text-light h4">Gallary</a></li>
+                    <li class="text-decoration-none" id="list"><a href="" class="text-light h4">Blog</a></li>                  
+                    <li class="text-decoration-none" id="list"><a href="" class="text-light h4">Footer</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 text-white">
+                <div class="row text-center mt-4">
+                    <div class="col-12">
+                        <h1>Address-:</h1>
+                        <p>Ahmednagar, Maharashtra, India, 22222</p>
+                    </div>
+                    <div class="col-12">
+                        <h1>Mobile-:</h1>
+                        <p>155465422222</p>
+                        <p>454654684654</p>
+                    </div>
+                    <div class="col-12">
+                        <h1>Email-:</h1>
+                        <p>A2z info @2222</p>
+                        <p>A2z info @12222</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </Footer>
+</body>
+</html>
